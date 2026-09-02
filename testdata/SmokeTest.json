@@ -1,0 +1,14 @@
+{
+  "smokeTests": [
+    {
+      "username": "standard_user",
+      "password": "secret_sauce",
+      "firstName": "Maria",
+      "lastName": "Ali",
+      "postalCode": "75300",
+      "productName": "Sauce Labs Backpack",
+      "expectedCartCount": "1",
+      "expectedCompleteMsg": "Thank you for your order!"
+    }
+  ]
+}

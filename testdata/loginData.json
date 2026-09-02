@@ -1,0 +1,29 @@
+{
+  "loginTests": [
+    {
+      "username": "standard_user",
+      "password": "secret_sauce",
+      "expectedMsg": "Products"
+    },
+    {
+      "username": "abcd",
+      "password": "abcd",
+      "expectedMsg": "Epic sadface: Username and password do not match any user in this service"
+    },
+    {
+      "username": "standard_user",
+      "password": "abcd",
+      "expectedMsg": "Epic sadface: Username and password do not match any user in this service"
+    },
+    {
+      "username": "abcd",
+      "password": "secret_sauce",
+      "expectedMsg": "Epic sadface: Username and password do not match any user in this service"
+    },
+    {
+      "username": "",
+      "password": "",
+      "expectedMsg": "Epic sadface: Username is required"
+    }
+  ]
+}

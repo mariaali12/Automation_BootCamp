@@ -1,0 +1,51 @@
+LOGIN STATUS: 200
+LOGIN RESPONSE: {
+  statusCode: 200,
+  data: {
+    user: {
+      _id: '6a97cdd7de39888b9e4afe64',
+      username: 'mariaali2',
+      email: 'mariaalimurtaz123@gmail.com',
+      fullname: 'mariali',
+      createdAt: '2026-09-02T07:18:47.265Z',
+      updatedAt: '2026-09-02T07:30:45.623Z',
+      __v: 0
+    },
+    accessToken: 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2YTk3Y2RkN2RlMzk4ODhiOWU0YWZlNjQiLCJlbWFpbCI6Im1hcmlhYWxpbXVydGF6MTIzQGdtYWlsLmNvbSIsInVzZXJuYW1lIjoibWFyaWFsaSIsImlhdCI6MTc4ODMzNDI0NSwiZXhwIjoxNzg4NDIwNjQ1fQ.NDV8Ztk5tyUueNMgZdlwcWQSw1w3sAarF2MIYlnKVMc',
+    refreshToken: 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2YTk3Y2RkN2RlMzk4ODhiOWU0YWZlNjQiLCJlbWFpbCI6Im1hcmlhYWxpbXVydGF6MTIzQGdtYWlsLmNvbSIsInVzZXJuYW1lIjoibWFyaWFsaSIsImlhdCI6MTc4ODMzNDI0NSwiZXhwIjoxNzg5MTk4MjQ1fQ.mnyiFYoIUI3zZfGGzBUGIz03xI9oiHBhktEFQj8gyhI'
+  },
+  message: 'User Logged in successfully',
+  success: true
+}
+GET STATUS: 200
+CURRENT USER: {
+  statusCode: 200,
+  data: {
+    _id: '6a97cdd7de39888b9e4afe64',
+    username: 'mariaali2',
+    email: 'mariaalimurtaz123@gmail.com',
+    fullname: 'mariali',
+    createdAt: '2026-09-02T07:18:47.265Z',
+    updatedAt: '2026-09-02T07:30:45.623Z',
+    __v: 0
+  },
+  message: 'Current user fetched successfully',
+  success: true
+}
+PUT STATUS: 200
+PUT RESPONSE: {"statusCode":200,"data":{"_id":"6a97cdd7de39888b9e4afe64","username":"john_updated","email":"mariaalimurtaz123@gmail.com","fullname":"mariaali updated","createdAt":"2026-09-02T07:18:47.265Z","updatedAt":"2026-09-02T07:30:47.083Z","__v":0,"refreshToken":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2YTk3Y2RkN2RlMzk4ODhiOWU0YWZlNjQiLCJlbWFpbCI6Im1hcmlhYWxpbXVydGF6MTIzQGdtYWlsLmNvbSIsInVzZXJuYW1lIjoibWFyaWFsaSIsImlhdCI6MTc4ODMzNDI0NSwiZXhwIjoxNzg5MTk4MjQ1fQ.mnyiFYoIUI3zZfGGzBUGIz03xI9oiHBhktEFQj8gyhI"},"message":"User details replaced successfully","success":true}
+GET AFTER PUT STATUS: 200
+UPDATED USER: {
+  statusCode: 200,
+  data: {
+    _id: '6a97cdd7de39888b9e4afe64',
+    username: 'john_updated',
+    email: 'mariaalimurtaz123@gmail.com',
+    fullname: 'mariaali updated',
+    createdAt: '2026-09-02T07:18:47.265Z',
+    updatedAt: '2026-09-02T07:30:47.083Z',
+    __v: 0
+  },
+  message: 'Current user fetched successfully',
+  success: true
+}

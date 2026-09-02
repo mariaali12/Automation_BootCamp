@@ -1,0 +1,2 @@
+REGISTER STATUS: 400
+REGISTER RESPONSE: {"statusCode":400,"success":false,"message":"All fields (fullname, email, username, password) are required","errors":[]}

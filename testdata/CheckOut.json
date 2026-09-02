@@ -1,0 +1,13 @@
+{
+  "checkoutTests": [
+    {
+      "username": "standard_user",
+      "password": "secret_sauce",
+      "productName": "Sauce Labs Backpack",
+      "firstName": "Maria",
+      "lastName": "Ali",
+      "postalCode": "75300",
+      "expectedMsg": "Thank you for your order!"
+    }
+  ]
+}

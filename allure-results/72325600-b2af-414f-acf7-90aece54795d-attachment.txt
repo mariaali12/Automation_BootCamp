@@ -1,0 +1,32 @@
+Login: {
+  statusCode: 200,
+  data: {
+    user: {
+      _id: '6a97cdd7de39888b9e4afe64',
+      username: 'mariaali2',
+      email: 'mariaalimurtaz123@gmail.com',
+      fullname: 'mariali',
+      createdAt: '2026-09-02T07:18:47.265Z',
+      updatedAt: '2026-09-02T07:27:38.401Z',
+      __v: 0
+    },
+    accessToken: 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2YTk3Y2RkN2RlMzk4ODhiOWU0YWZlNjQiLCJlbWFpbCI6Im1hcmlhYWxpbXVydGF6MTIzQGdtYWlsLmNvbSIsInVzZXJuYW1lIjoibWFyaWFsaSIsImlhdCI6MTc4ODMzNDA1OCwiZXhwIjoxNzg4NDIwNDU4fQ.998dYwwaP8zt-NOrOQVHpIDwyLbjfCp24ALzKvpdlwA',
+    refreshToken: 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2YTk3Y2RkN2RlMzk4ODhiOWU0YWZlNjQiLCJlbWFpbCI6Im1hcmlhYWxpbXVydGF6MTIzQGdtYWlsLmNvbSIsInVzZXJuYW1lIjoibWFyaWFsaSIsImlhdCI6MTc4ODMzNDA1OCwiZXhwIjoxNzg5MTk4MDU4fQ.qP71fUOAB10LIW41-0rW1mGvSuYL75CTx4xoGTDC4sc'
+  },
+  message: 'User Logged in successfully',
+  success: true
+}
+Original User: {
+  statusCode: 200,
+  data: {
+    _id: '6a97cdd7de39888b9e4afe64',
+    username: 'mariaali2',
+    email: 'mariaalimurtaz123@gmail.com',
+    fullname: 'mariali',
+    createdAt: '2026-09-02T07:18:47.265Z',
+    updatedAt: '2026-09-02T07:27:38.401Z',
+    __v: 0
+  },
+  message: 'Current user fetched successfully',
+  success: true
+}

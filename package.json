@@ -1,0 +1,22 @@
+{
+  "name": "automation_lecture_1",
+  "version": "1.0.0",
+  "description": "Playwright Automation with Allure Reporting",
+  "main": "index.js",
+  "scripts": {
+    "test": "playwright test",
+    "test:headed": "playwright test --headed",
+    "test:login": "playwright test tests/Login.spec.js --project=chromium --headed",
+    "allure:generate": "allure generate allure-results --clean -o allure-report",
+    "allure:open": "allure open allure-report",
+    "report": "npm run allure:generate && npm run allure:open"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@playwright/test": "^1.62.1",
+    "@types/node": "^26.1.2",
+    "allure-playwright": "^3.10.2"
+  }
+}

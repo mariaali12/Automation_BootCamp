@@ -1,0 +1,9 @@
+{
+  "logoutTests": [
+    {
+      "username": "standard_user",
+      "password": "secret_sauce",
+      "expectedMsg": "Swag Labs"
+    }
+  ]
+}

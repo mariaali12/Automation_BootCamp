@@ -1,0 +1,51 @@
+LOGIN STATUS: 200
+LOGIN RESPONSE: {
+  statusCode: 200,
+  data: {
+    user: {
+      _id: '6a97cdd7de39888b9e4afe64',
+      username: 'john_updated',
+      email: 'mariaalimurtaz123@gmail.com',
+      fullname: 'mariaali updated',
+      createdAt: '2026-09-02T07:18:47.265Z',
+      updatedAt: '2026-09-02T07:32:19.555Z',
+      __v: 0
+    },
+    accessToken: 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2YTk3Y2RkN2RlMzk4ODhiOWU0YWZlNjQiLCJlbWFpbCI6Im1hcmlhYWxpbXVydGF6MTIzQGdtYWlsLmNvbSIsInVzZXJuYW1lIjoibWFyaWFhbGkgdXBkYXRlZCIsImlhdCI6MTc4ODMzNDMzOSwiZXhwIjoxNzg4NDIwNzM5fQ.piZXoZ07GCRoEVyV9N940D8DkC_tFUSybokDx5ZDSYU',
+    refreshToken: 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2YTk3Y2RkN2RlMzk4ODhiOWU0YWZlNjQiLCJlbWFpbCI6Im1hcmlhYWxpbXVydGF6MTIzQGdtYWlsLmNvbSIsInVzZXJuYW1lIjoibWFyaWFhbGkgdXBkYXRlZCIsImlhdCI6MTc4ODMzNDMzOSwiZXhwIjoxNzg5MTk4MzM5fQ.0qBEXIfeTfvYRxJ5a_yumdGHn3HJXRqamxnVTw-fDis'
+  },
+  message: 'User Logged in successfully',
+  success: true
+}
+GET STATUS: 200
+CURRENT USER: {
+  statusCode: 200,
+  data: {
+    _id: '6a97cdd7de39888b9e4afe64',
+    username: 'john_updated',
+    email: 'mariaalimurtaz123@gmail.com',
+    fullname: 'mariaali updated',
+    createdAt: '2026-09-02T07:18:47.265Z',
+    updatedAt: '2026-09-02T07:32:19.555Z',
+    __v: 0
+  },
+  message: 'Current user fetched successfully',
+  success: true
+}
+PUT STATUS: 200
+PUT RESPONSE: {"statusCode":200,"data":{"_id":"6a97cdd7de39888b9e4afe64","username":"john_updated","email":"mariaalimurtaz123@gmail.com","fullname":"mariaali updated","createdAt":"2026-09-02T07:18:47.265Z","updatedAt":"2026-09-02T07:32:21.018Z","__v":0,"refreshToken":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJfaWQiOiI2YTk3Y2RkN2RlMzk4ODhiOWU0YWZlNjQiLCJlbWFpbCI6Im1hcmlhYWxpbXVydGF6MTIzQGdtYWlsLmNvbSIsInVzZXJuYW1lIjoibWFyaWFhbGkgdXBkYXRlZCIsImlhdCI6MTc4ODMzNDMzOSwiZXhwIjoxNzg5MTk4MzM5fQ.0qBEXIfeTfvYRxJ5a_yumdGHn3HJXRqamxnVTw-fDis"},"message":"User details replaced successfully","success":true}
+GET AFTER PUT STATUS: 200
+UPDATED USER: {
+  statusCode: 200,
+  data: {
+    _id: '6a97cdd7de39888b9e4afe64',
+    username: 'john_updated',
+    email: 'mariaalimurtaz123@gmail.com',
+    fullname: 'mariaali updated',
+    createdAt: '2026-09-02T07:18:47.265Z',
+    updatedAt: '2026-09-02T07:32:21.018Z',
+    __v: 0
+  },
+  message: 'Current user fetched successfully',
+  success: true
+}
